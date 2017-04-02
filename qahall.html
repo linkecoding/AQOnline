@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>微信在线答疑平台</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="css/weuix.min.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/qahall.js"></script>
+</head>
+<body ontouchstart style="background-color: #f8f8f8;">
+
+<div class="page-hd">         
+<div class="weui_tab" style="height:44px;" id="ques_tab">        
+    <div class="weui_tab_nav">
+    <a href="javascript:" class="weui_navbar_item weui_nav_green" id="newest_ques">最新问题</a>
+    <a href="javascript:" class="weui_navbar_item weui_nav_green" id="hot_ques">热门问题</a> 
+    </div>        
+</div> 
+</div>
+
+<div class="weui_panel_bd" style="background-color: #ffffff;" id="ques_list">
+    
+</div>
+
+<div class="pager"  style="margin-bottom: 50px;">
+<div class="pager-left">
+    <div class="pager-first" id="home_page"><a class="pager-nav">首页</a></div>
+    <div class="pager-pre"><a class="pager-nav" id="pre_page">上一页</a></div>
+</div>
+<div class="pager-cen" id="now_page">1/1</div>
+<div class="pager-right">
+    <div class="pager-next"><a class="pager-nav" id="next_page">下一页</a></div>
+    <div class="pager-end"><a class="pager-nav" id="end_page">尾页</a></div>
+</div>
+</div>
+
+<div class="weui_tabbar tab-bottom">
+    <a href="index.html" class="weui_tabbar_item">
+        <div class="weui_tabbar_icon">
+            <i class="icon icon-27"></i>
+        </div>
+        <p class="weui_tabbar_label">首页</p>
+    </a>
+    <a href="qahall.html" class="weui_tabbar_item weui_bar_item_on">
+        <div class="weui_tabbar_icon">
+            <i class="icon icon-88"></i>
+        </div>
+        <p class="weui_tabbar_label">答疑大厅</p>
+    </a>
+    <a href="good_topic.html" class="weui_tabbar_item">
+        <div class="weui_tabbar_icon">
+            <i class="icon icon-4"></i>
+        </div>
+        <p class="weui_tabbar_label">发现</p>
+    </a>
+    <a href="./php/me.php" class="weui_tabbar_item">
+        <div class="weui_tabbar_icon">
+            <i class="icon icon-85"></i>
+        </div>
+        <p class="weui_tabbar_label">我</p>
+    </a>         
+</div>
+</body>
+</html>

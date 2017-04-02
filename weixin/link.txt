@@ -1,0 +1,14 @@
+//绑定账号
+
+//学生
+
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx73bf23ab67d9e5fb&redirect_uri=http%3A%2F%2Fwww.aimuke.top%2FAQ%2Fweixin%2Fclass%2FauthWeChat.class.php&response_type=code&scope=snsapi_userinfo&state=student#wechat_redirect
+
+
+//教师
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx73bf23ab67d9e5fb&redirect_uri=http%3A%2F%2Fwww.aimuke.top%2FAQ%2Fweixin%2Fclass%2FauthWeChat.class.php&response_type=code&scope=snsapi_userinfo&state=teacher#wechat_redirect
+
+
+//打开首页
+
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx73bf23ab67d9e5fb&redirect_uri=http%3A%2F%2Fwww.aimuke.top%2FAQ%2Fweixin%2Fclass%2Fjudge.php&response_type=code&scope=snsapi_base&state=index#wechat_redirect

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>绑定账号</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+<link rel="stylesheet" href="../css/weuix.min.css"/>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bind_account.js"></script>
+</head>
+
+<body ontouchstart style="background-color: #f8f8f8;">
+<div class="weui-header bg-blue"> 
+<div class="weui-header-left"> <a class="icon icon-109 f-white">返回</a>  </div>
+<h1 class="weui-header-title">绑定账号</h1>
+<div class="weui-header-right"><a class="icon f-white"></a></div> 
+</div>
+
+<div class="weui_cells_tips">请输入学号、初始密码进行账号绑定,初始密码可询问管理员</div>
+<form id="form2">
+    <div class="weui_cells_title">学号</div>
+    <div class="weui_cells">
+        <div class="weui_cell">
+            <div class="weui_cell_bd weui_cell_primary">
+                <input class="weui_input" placeholder="请输入账号" id="id_code" type="number" pattern="[0-9]*" required="">
+            </div>
+        </div>
+    </div>
+    
+    <div class="weui_cells_title">密码</div>
+    <div class="weui_cells">
+        <div class="weui_cell">
+            <div class="weui_cell_bd weui_cell_primary">
+                <input class="weui_input" placeholder="请输入密码" type="password" id="id_password" required="">
+            </div>
+        </div>
+    </div>
+    <div class="weui_btn_area">
+        <a href="javascript:;" class="weui_btn weui_btn_primary" id="id_bind_account">绑定</a>
+    </div>
+</form>
+</body>
+</html>

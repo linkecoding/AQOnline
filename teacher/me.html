@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>微信在线答疑平台</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="../css/weuix.min.css"/>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/me.js"></script>
+</head>
+<body ontouchstart style="background-color: #f8f8f8;">
+<div class="weui_panel_bd weui_cells">
+    <a href="javascript:void(0);" class="weui_media_box weui_media_appmsg">
+        <div class="weui_media_hd">
+            <img class="weui_media_appmsg_thumb" src="images/bear.jpg" alt="" style="width: 100%; height: 100%;" id="avatar_img">
+        </div>
+        <div class="weui_media_bd">
+            <h4 class="weui_media_title" id="nick_name">昵称</h4>
+        </div>
+    </a>
+</div>
+
+
+<div class="weui_cells weui_cells_access">
+    <a class="weui_cell" href="javascript:;">
+        <div class="weui_cell_hd"><i class="icon icon-84" style="width:20px;margin-right:5px;display:block"></i></div>
+        <div class="weui_cell_bd weui_cell_primary">
+            <p>工号</p>
+        </div>
+        <div class="weui_cell_ft" id="code"></div>
+    </a>
+    <a class="weui_cell" href="javascript:;">
+        <div class="weui_cell_hd"><i class="icon icon-14" style="width:20px;margin-right:5px;display:block"></i></div>
+        <div class="weui_cell_bd weui_cell_primary">
+            <p>微信号</p>
+        </div>
+        <div class="weui_cell_ft" id="wechat_code"></div>
+    </a>
+    <a class="weui_cell" href="./post_article.html">
+        <div class="weui_cell_hd"><i class="icon icon-34" style="width:20px;margin-right:5px;display:block"></i></div>
+        <div class="weui_cell_bd weui_cell_primary">
+            <p>发表经典问题</p>
+        </div>
+        <div class="weui_cell_ft" id="wechat_code"></div>
+    </a>
+</div>
+
+<div class="weui_panel_bd"></div>
+
+<div class="weui_cells weui_cells_access">
+    <a class="weui_cell" href="javascript:;" id="posted_article">
+        <div class="weui_cell_hd"><i class="icon icon-5" style="width:20px;margin-right:5px;display:block"></i></div>
+        <div class="weui_cell_bd weui_cell_primary">
+            <p>我发表的解答</p>
+        </div>
+        <div class="weui_cell_ft"></div>
+    </a>
+    <a class="weui_cell" href="javascript:;" id="answered_question">
+        <div class="weui_cell_hd"><i class="icon icon-79" style="width:20px;margin-right:5px;display:block"></i></div>
+        <div class="weui_cell_bd weui_cell_primary">
+            <p>我回答的问题</p>
+        </div>
+        <div class="weui_cell_ft"></div>
+    </a>
+</div>
+
+<div class="weui_panel_bd"></div>
+
+<div class="weui_cells weui_cells_access">
+    <a class="weui_cell" href="javascript:;" id="setting">
+        <div class="weui_cell_hd"><i class="icon icon-102" style="width:20px;margin-right:5px;display:block"></i></div>
+        <div class="weui_cell_bd weui_cell_primary">
+            <p>设置</p>
+        </div>
+        <div class="weui_cell_ft"></div>
+    </a>
+</div>
+
+<div class="weui_tabbar tab-bottom">
+    <a href="../index.html" class="weui_tabbar_item">
+        <div class="weui_tabbar_icon">
+            <i class="icon icon-27"></i>
+        </div>
+        <p class="weui_tabbar_label">首页</p>
+    </a>
+    <a href="../qahall.html" class="weui_tabbar_item">
+        <div class="weui_tabbar_icon">
+            <i class="icon icon-88"></i>
+        </div>
+        <p class="weui_tabbar_label">答疑大厅</p>
+    </a>
+    <a href="../good_topic.html" class="weui_tabbar_item">
+        <div class="weui_tabbar_icon">
+            <i class="icon icon-4"></i>
+        </div>
+        <p class="weui_tabbar_label">发现</p>
+    </a>
+    <a href="../php/me.php" class="weui_tabbar_item weui_bar_item_on">
+        <div class="weui_tabbar_icon">
+            <i class="icon icon-85"></i>
+        </div>
+        <p class="weui_tabbar_label">我</p>
+    </a>         
+</div>
+</body>
+</html>
